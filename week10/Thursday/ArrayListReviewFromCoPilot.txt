@@ -1,0 +1,162 @@
+ARRAYLISTS
+----------
+
+Creating an ArrayList of Integers:
+
+    ArrayList<Integer> list = new ArrayList<>();
+
+    list.add(1);
+    list.add(100);
+    list.add(200);
+
+Contents:
+
+    [1, 100, 200]
+
+Changing 200 to 900:
+
+    list.set(2, 900);
+
+Result:
+
+    [1, 100, 900]
+
+Adding 300 to the end:
+
+    list.add(300);
+
+Result:
+
+    [1, 100, 200, 300]
+
+Printing the value 100:
+
+    System.out.println(list.get(1));
+
+Output:
+
+    100
+
+
+ARRAYLIST VS ARRAY
+------------------
+
+Array:
+
+    int[] list = {1, 100, 200};
+
+    list[2] = 900;
+
+ArrayList:
+
+    list.set(2, 900);
+
+Key Difference:
+
+    Array:
+        list[index]
+
+    ArrayList:
+        list.get(index)
+        list.set(index, value)
+
+
+COMMON ARRAYLIST METHODS
+------------------------
+
+Add an element:
+
+    list.add(300);
+
+Get an element:
+
+    list.get(1);
+
+Replace an element:
+
+    list.set(2, 900);
+
+Remove an element:
+
+    list.remove(1);
+
+Get the size:
+
+    list.size();
+
+
+TRAVERSING AN ARRAYLIST (MEMORIZE THIS!)
+----------------------------------------
+
+    for (int i = 0; i < list.size(); i++) {
+        System.out.println(list.get(i));
+    }
+
+How it works:
+
+    i = 0  -> first element
+    i = 1  -> second element
+    i = 2  -> third element
+    ...
+
+The loop continues until every element has been visited.
+
+
+EXAMPLE
+-------
+
+If:
+
+    ArrayList<Integer> list = new ArrayList<>();
+
+    list.add(10);
+    list.add(20);
+    list.add(30);
+
+Then:
+
+    for (int i = 0; i < list.size(); i++) {
+        System.out.println(list.get(i));
+    }
+
+Output:
+
+    10
+    20
+    30
+
+
+EXAM TIPS
+---------
+
+    add(value)
+        Adds a new element to the end
+
+    get(index)
+        Retrieves an element
+
+    set(index, value)
+        Replaces an element
+
+    remove(index)
+        Removes an element
+
+    size()
+        Returns the number of elements
+
+    Array:
+        list[index]
+
+    ArrayList:
+        list.get(index)
+
+    Memorize:
+        for (int i = 0; i < list.size(); i++)
+
+
+MOST IMPORTANT ARRAYLIST LOOP
+-----------------------------
+
+    for (int i = 0; i < list.size(); i++) {
+        System.out.println(list.get(i));
+    }
