@@ -1,0 +1,7 @@
+Phone, Apple iPhone, 899.99, 3025551234
+Phone, Samsung S26 Ultra, 999.50, 3025551235
+Product, LG OLED 65" TV, 1499.00
+Product, Steam Deck, 500.00
+Product, Playstation 2, 129.99
+Computer, Macbook Pro, 1999, M4
+Computer, Surface Pro, 1299, Intel Ultra 5
